@@ -1,4 +1,1 @@
-"# chess" 
-"# chess" 
-"# chess" 
-"# chess" 
+The website was designed as a chess platform for NIS PhMD Almaty students. It contains lessons, puzzles for any chess level of players. The platform also publishes daily news and tournament announcements. 
