@@ -1,0 +1,48 @@
+.frame{
+    margin: 0 auto;
+    width: 49.5%;
+}
+
+.frame-item{
+    margin: 100px 0 100px;
+    background-color: darkgray;
+    border-radius: 10px;
+}
+
+.frame-item iframe{
+    display: block;
+}
+
+.sub-frame{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.frame-item p{
+    font-size: 20px;
+    margin: 20px 0 0 20px;
+    text-align: left;
+    color: whitesmoke;
+}
+
+.frame-item button{
+    padding: 10px;
+    border-radius: 0px 0px 0px 10px;
+    border: 2px solid lightslategray;
+    background-color:lightslategray;
+    transition: .3s;
+}
+
+.frame-item button:hover{
+    filter: brightness(80%)
+}
+
+.frame-item h1{
+    font-size: 20px;
+    margin: 20px 0 0 20px;
+    font-weight: 700;
+    text-align: left;
+    color: whitesmoke;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,11 @@
+.changePass h1{
+    margin: 10px 0 30px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.changePass h2{
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+}

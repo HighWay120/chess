@@ -1,0 +1,101 @@
+.video-btns{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto 0;
+    width: 90%;
+}
+
+.video-btns a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    width: 11%;
+    padding: 10px;
+    border-radius: 25px;
+    transition: .3s;
+}
+
+#razryad5{
+    color: whitesmoke;
+    border: 2px solid darkgrey;
+    background-color: #997570;
+}
+
+#razryad6{
+    color: whitesmoke;
+    border: 2px solid darkgrey;
+    background-color: #F5C77E;
+}
+
+#razryad4{
+    color: whitesmoke;
+    border: 2px solid darkgrey;
+    background-color: #594D58;
+}
+
+#razryad3{
+    color: whitesmoke;
+    border: 2px solid darkgrey;
+    background-color: #59656D;
+}
+
+#razryad2{
+    color: whitesmoke;
+    border: 2px solid darkgrey;
+    background-color: #57534B;
+}
+
+#razryad1{
+    color: whitesmoke;
+    border: 2px solid darkgrey;
+    background-color: #858A7E;
+}
+
+#razryad8{
+    color: black;
+    border: 2px solid darkgrey;
+    background-color: white;
+}
+
+.video-btns a:hover{
+    opacity: 0.7;
+}
+
+.video-ref{
+    margin: 100px auto 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+}
+
+.video-ref a{
+    margin: 15px 20px;
+    font-size: 20px;
+    color: white;
+    display: block;
+    padding: 10px 120px;
+    text-decoration: none;
+    background-color: lightslategray;
+    border-radius: 12px;
+    border: 2px solid lightslategray;
+    float: left;
+    transition: .3s;
+}
+
+.video-ref a:hover{
+    background-color: darkslategray;
+}
+
+.typeWriter-line{
+    animation: blink 1s;
+}
+
+@keyframes blink{
+    50%{
+        opacity: 0;
+    }
+}

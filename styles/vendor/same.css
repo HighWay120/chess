@@ -1,0 +1,238 @@
+/* .header{
+    background-color: darkgray;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header a{
+    display: block;
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    margin: auto 0;
+}
+
+.head-btns{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-btns a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 25px;
+    text-align: center;
+    margin: auto 0;
+    transition: .3s;
+}
+
+.head-btns a:hover{
+    text-decoration: underline;
+}
+
+
+
+.footer{
+    background-color: black;
+    height: 250px;
+}
+
+.footer h1{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.footer h2{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.contacts{
+    display: flex;
+    justify-content:space-evenly;
+    margin-bottom: 40px;
+}
+
+.contacts p{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    transition: .3s;
+}
+
+.contacts p:hover{
+    text-decoration: underline;
+}
+
+.footer p{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+} */
+
+/* Header Styles */
+.header {
+    background-color: darkgray;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center items vertically */
+    padding: 0 20px; /* Add padding to adjust spacing */
+    flex-wrap: wrap;
+}
+
+.header a {
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    transition: .3s;
+}
+
+.head-btns {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.head-btns a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    margin-left: 20px;
+    transition: .3s;
+}
+
+.head-btns a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: black;
+    padding: 40px 0;
+}
+
+.footer h1 {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footer h2 {
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.contacts {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contacts p {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 10px;
+    transition: .3s;
+}
+
+.contacts p:hover {
+    text-decoration: underline;
+}
+
+.footer p {
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Media Queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0; /* Adjust padding for smaller screens */
+    }
+
+    .header a.logo {
+        margin-bottom: 20px; /* Add margin bottom to separate logo from buttons */
+    }
+
+    .head-btns {
+        margin-top: 20px; /* Add margin top for buttons */
+        flex-wrap: wrap;
+    }
+
+    .head-btns a {
+        font-size: 15px;
+        margin: 0 10px; /* Adjust margin for buttons */
+    }
+
+    .footer {
+        padding: 20px 0; /* Adjust padding for smaller screens */
+    }
+
+    .footer h1 {
+        font-size: 18px; /* Decrease font size for heading */
+    }
+
+    .footer h2 {
+        font-size: 14px; /* Decrease font size for subheading */
+    }
+
+    .contacts p {
+        font-size: 12px; /* Decrease font size for contacts */
+    }
+
+    .footer p {
+        font-size: 12px; /* Decrease font size for footer text */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .header {
+        padding: 10px 0; /* Further adjust padding for smaller screens */
+    }
+
+    .header a.logo {
+        font-size: 20px; /* Decrease font size for logo */
+    }
+
+    .head-btns a {
+        font-size: 10px; /* Decrease font size for buttons */
+    }
+
+    .footer {
+        padding: 20px 0;
+    }
+
+    .footer h1 {
+        font-size: 18px;
+    }
+
+    .footer h2 {
+        font-size: 14px;
+    }
+
+    .contacts p {
+        font-size: 12px;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+}
